@@ -28,3 +28,13 @@
 // var subtractProductAndSum = function(n) {
     
 // };
+
+var subtractProductAndSum = function(n) {
+    // loop through string param to separate each number
+
+    // product of digits and store value
+
+    // sum of digits and store value
+
+    // subtract sum from product
+};
