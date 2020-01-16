@@ -22,18 +22,18 @@
     
 // };
 
+
+// WRONG ANSWER
+// did not add () at end of toLowerCase
 let toLowerCase = function(str) {
     return str.toLowerCase
 };
 
-// WRONG ANSWER
-
-
-let toLowerCase = function(str) {
-    return str.toLowerCase()
-};
 
 // Success Details 
 // Runtime: 52 ms, faster than 66.46% of JavaScript online submissions for To Lower Case.
 // Memory Usage: 34 MB, less than 5.13% of JavaScript online submissions for To Lower Case.
 
+let toLowerCase = function(str) {
+    return str.toLowerCase()
+};
