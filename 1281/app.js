@@ -30,11 +30,12 @@
 // };
 
 var subtractProductAndSum = function(n) {
-    // loop through string param to separate each number
-
-    // product of digits and store value
-
-    // sum of digits and store value
-
-    // subtract sum from product
+    let num = n.split("");
+    console.log(num)
+    let sum = num.map(x => x+=);
+                      console.log(sum)
+    let product = num.map(y => y*=)
+                    console.log(product)
+    let res = product - sum
+    return res
 };
